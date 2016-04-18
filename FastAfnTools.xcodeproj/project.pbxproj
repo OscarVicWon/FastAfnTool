@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334C6E341CC4B4500077CBF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C6E331CC4B4500077CBF1 /* main.m */; };
+		334C6E371CC4B4500077CBF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C6E361CC4B4500077CBF1 /* AppDelegate.m */; };
+		334C6E3A1CC4B4500077CBF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C6E391CC4B4500077CBF1 /* ViewController.m */; };
+		334C6E3D1CC4B4500077CBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334C6E3B1CC4B4500077CBF1 /* Main.storyboard */; };
+		334C6E3F1CC4B4500077CBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334C6E3E1CC4B4500077CBF1 /* Assets.xcassets */; };
+		334C6E421CC4B4500077CBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334C6E401CC4B4500077CBF1 /* LaunchScreen.storyboard */; };
+		334C6E4D1CC4B4500077CBF1 /* FastAfnToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C6E4C1CC4B4500077CBF1 /* FastAfnToolsTests.m */; };
+		334C6E581CC4B4500077CBF1 /* FastAfnToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C6E571CC4B4500077CBF1 /* FastAfnToolsUITests.m */; };
+		334C6E671CC4B5850077CBF1 /* NetWorkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 334C6E661CC4B5850077CBF1 /* NetWorkingTool.m */; };
+		3C1BF3D5C282C918A9CAB1ED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D0A6FE4EE45C389F3346AB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		334C6E491CC4B4500077CBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334C6E271CC4B4500077CBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334C6E2E1CC4B4500077CBF1;
+			remoteInfo = FastAfnTools;
+		};
+		334C6E541CC4B4500077CBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334C6E271CC4B4500077CBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334C6E2E1CC4B4500077CBF1;
+			remoteInfo = FastAfnTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0510E91E038564AFD755B84B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		13D0A6FE4EE45C389F3346AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		334C6E2F1CC4B4500077CBF1 /* FastAfnTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastAfnTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334C6E331CC4B4500077CBF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		334C6E351CC4B4500077CBF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		334C6E361CC4B4500077CBF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		334C6E381CC4B4500077CBF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		334C6E391CC4B4500077CBF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		334C6E3C1CC4B4500077CBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334C6E3E1CC4B4500077CBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		334C6E411CC4B4500077CBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		334C6E431CC4B4500077CBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334C6E481CC4B4500077CBF1 /* FastAfnToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastAfnToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334C6E4C1CC4B4500077CBF1 /* FastAfnToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastAfnToolsTests.m; sourceTree = "<group>"; };
+		334C6E4E1CC4B4500077CBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334C6E531CC4B4500077CBF1 /* FastAfnToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastAfnToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334C6E571CC4B4500077CBF1 /* FastAfnToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastAfnToolsUITests.m; sourceTree = "<group>"; };
+		334C6E591CC4B4500077CBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334C6E651CC4B5850077CBF1 /* NetWorkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingTool.h; sourceTree = "<group>"; };
+		334C6E661CC4B5850077CBF1 /* NetWorkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkingTool.m; sourceTree = "<group>"; };
+		5EDAB08008695D27FD8CA458 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334C6E2C1CC4B4500077CBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1BF3D5C282C918A9CAB1ED /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334C6E451CC4B4500077CBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334C6E501CC4B4500077CBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334C6E261CC4B4500077CBF1 = {
+			isa = PBXGroup;
+			children = (
+				334C6E311CC4B4500077CBF1 /* FastAfnTools */,
+				334C6E4B1CC4B4500077CBF1 /* FastAfnToolsTests */,
+				334C6E561CC4B4500077CBF1 /* FastAfnToolsUITests */,
+				334C6E301CC4B4500077CBF1 /* Products */,
+				7E6EC4C45E836A278DC42FDB /* Pods */,
+				C766A52143A081E75AFAABB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		334C6E301CC4B4500077CBF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334C6E2F1CC4B4500077CBF1 /* FastAfnTools.app */,
+				334C6E481CC4B4500077CBF1 /* FastAfnToolsTests.xctest */,
+				334C6E531CC4B4500077CBF1 /* FastAfnToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334C6E311CC4B4500077CBF1 /* FastAfnTools */ = {
+			isa = PBXGroup;
+			children = (
+				334C6E351CC4B4500077CBF1 /* AppDelegate.h */,
+				334C6E361CC4B4500077CBF1 /* AppDelegate.m */,
+				334C6E381CC4B4500077CBF1 /* ViewController.h */,
+				334C6E391CC4B4500077CBF1 /* ViewController.m */,
+				334C6E651CC4B5850077CBF1 /* NetWorkingTool.h */,
+				334C6E661CC4B5850077CBF1 /* NetWorkingTool.m */,
+				334C6E3B1CC4B4500077CBF1 /* Main.storyboard */,
+				334C6E3E1CC4B4500077CBF1 /* Assets.xcassets */,
+				334C6E401CC4B4500077CBF1 /* LaunchScreen.storyboard */,
+				334C6E431CC4B4500077CBF1 /* Info.plist */,
+				334C6E321CC4B4500077CBF1 /* Supporting Files */,
+			);
+			path = FastAfnTools;
+			sourceTree = "<group>";
+		};
+		334C6E321CC4B4500077CBF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				334C6E331CC4B4500077CBF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		334C6E4B1CC4B4500077CBF1 /* FastAfnToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				334C6E4C1CC4B4500077CBF1 /* FastAfnToolsTests.m */,
+				334C6E4E1CC4B4500077CBF1 /* Info.plist */,
+			);
+			path = FastAfnToolsTests;
+			sourceTree = "<group>";
+		};
+		334C6E561CC4B4500077CBF1 /* FastAfnToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				334C6E571CC4B4500077CBF1 /* FastAfnToolsUITests.m */,
+				334C6E591CC4B4500077CBF1 /* Info.plist */,
+			);
+			path = FastAfnToolsUITests;
+			sourceTree = "<group>";
+		};
+		7E6EC4C45E836A278DC42FDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0510E91E038564AFD755B84B /* Pods.debug.xcconfig */,
+				5EDAB08008695D27FD8CA458 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C766A52143A081E75AFAABB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D0A6FE4EE45C389F3346AB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334C6E2E1CC4B4500077CBF1 /* FastAfnTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334C6E5C1CC4B4500077CBF1 /* Build configuration list for PBXNativeTarget "FastAfnTools" */;
+			buildPhases = (
+				4A539BE34F7FDF74AA640630 /* Check Pods Manifest.lock */,
+				334C6E2B1CC4B4500077CBF1 /* Sources */,
+				334C6E2C1CC4B4500077CBF1 /* Frameworks */,
+				334C6E2D1CC4B4500077CBF1 /* Resources */,
+				4F8B9673533AFE2A0F91EA8D /* Embed Pods Frameworks */,
+				C641A2F9939287318B4B77D0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastAfnTools;
+			productName = FastAfnTools;
+			productReference = 334C6E2F1CC4B4500077CBF1 /* FastAfnTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		334C6E471CC4B4500077CBF1 /* FastAfnToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334C6E5F1CC4B4500077CBF1 /* Build configuration list for PBXNativeTarget "FastAfnToolsTests" */;
+			buildPhases = (
+				334C6E441CC4B4500077CBF1 /* Sources */,
+				334C6E451CC4B4500077CBF1 /* Frameworks */,
+				334C6E461CC4B4500077CBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334C6E4A1CC4B4500077CBF1 /* PBXTargetDependency */,
+			);
+			name = FastAfnToolsTests;
+			productName = FastAfnToolsTests;
+			productReference = 334C6E481CC4B4500077CBF1 /* FastAfnToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		334C6E521CC4B4500077CBF1 /* FastAfnToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334C6E621CC4B4500077CBF1 /* Build configuration list for PBXNativeTarget "FastAfnToolsUITests" */;
+			buildPhases = (
+				334C6E4F1CC4B4500077CBF1 /* Sources */,
+				334C6E501CC4B4500077CBF1 /* Frameworks */,
+				334C6E511CC4B4500077CBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334C6E551CC4B4500077CBF1 /* PBXTargetDependency */,
+			);
+			name = FastAfnToolsUITests;
+			productName = FastAfnToolsUITests;
+			productReference = 334C6E531CC4B4500077CBF1 /* FastAfnToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334C6E271CC4B4500077CBF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wanghezhu;
+				TargetAttributes = {
+					334C6E2E1CC4B4500077CBF1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					334C6E471CC4B4500077CBF1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 334C6E2E1CC4B4500077CBF1;
+					};
+					334C6E521CC4B4500077CBF1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 334C6E2E1CC4B4500077CBF1;
+					};
+				};
+			};
+			buildConfigurationList = 334C6E2A1CC4B4500077CBF1 /* Build configuration list for PBXProject "FastAfnTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334C6E261CC4B4500077CBF1;
+			productRefGroup = 334C6E301CC4B4500077CBF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334C6E2E1CC4B4500077CBF1 /* FastAfnTools */,
+				334C6E471CC4B4500077CBF1 /* FastAfnToolsTests */,
+				334C6E521CC4B4500077CBF1 /* FastAfnToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334C6E2D1CC4B4500077CBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334C6E421CC4B4500077CBF1 /* LaunchScreen.storyboard in Resources */,
+				334C6E3F1CC4B4500077CBF1 /* Assets.xcassets in Resources */,
+				334C6E3D1CC4B4500077CBF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334C6E461CC4B4500077CBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334C6E511CC4B4500077CBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A539BE34F7FDF74AA640630 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8B9673533AFE2A0F91EA8D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C641A2F9939287318B4B77D0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334C6E2B1CC4B4500077CBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334C6E3A1CC4B4500077CBF1 /* ViewController.m in Sources */,
+				334C6E671CC4B5850077CBF1 /* NetWorkingTool.m in Sources */,
+				334C6E371CC4B4500077CBF1 /* AppDelegate.m in Sources */,
+				334C6E341CC4B4500077CBF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334C6E441CC4B4500077CBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334C6E4D1CC4B4500077CBF1 /* FastAfnToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334C6E4F1CC4B4500077CBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334C6E581CC4B4500077CBF1 /* FastAfnToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		334C6E4A1CC4B4500077CBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334C6E2E1CC4B4500077CBF1 /* FastAfnTools */;
+			targetProxy = 334C6E491CC4B4500077CBF1 /* PBXContainerItemProxy */;
+		};
+		334C6E551CC4B4500077CBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334C6E2E1CC4B4500077CBF1 /* FastAfnTools */;
+			targetProxy = 334C6E541CC4B4500077CBF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		334C6E3B1CC4B4500077CBF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334C6E3C1CC4B4500077CBF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		334C6E401CC4B4500077CBF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334C6E411CC4B4500077CBF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334C6E5A1CC4B4500077CBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		334C6E5B1CC4B4500077CBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		334C6E5D1CC4B4500077CBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0510E91E038564AFD755B84B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastAfnTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OscarVicWon.FastAfnTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		334C6E5E1CC4B4500077CBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDAB08008695D27FD8CA458 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastAfnTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OscarVicWon.FastAfnTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		334C6E601CC4B4500077CBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FastAfnToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OscarVicWon.FastAfnToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastAfnTools.app/FastAfnTools";
+			};
+			name = Debug;
+		};
+		334C6E611CC4B4500077CBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FastAfnToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OscarVicWon.FastAfnToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastAfnTools.app/FastAfnTools";
+			};
+			name = Release;
+		};
+		334C6E631CC4B4500077CBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FastAfnToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OscarVicWon.FastAfnToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FastAfnTools;
+			};
+			name = Debug;
+		};
+		334C6E641CC4B4500077CBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FastAfnToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OscarVicWon.FastAfnToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FastAfnTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334C6E2A1CC4B4500077CBF1 /* Build configuration list for PBXProject "FastAfnTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334C6E5A1CC4B4500077CBF1 /* Debug */,
+				334C6E5B1CC4B4500077CBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334C6E5C1CC4B4500077CBF1 /* Build configuration list for PBXNativeTarget "FastAfnTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334C6E5D1CC4B4500077CBF1 /* Debug */,
+				334C6E5E1CC4B4500077CBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334C6E5F1CC4B4500077CBF1 /* Build configuration list for PBXNativeTarget "FastAfnToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334C6E601CC4B4500077CBF1 /* Debug */,
+				334C6E611CC4B4500077CBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334C6E621CC4B4500077CBF1 /* Build configuration list for PBXNativeTarget "FastAfnToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334C6E631CC4B4500077CBF1 /* Debug */,
+				334C6E641CC4B4500077CBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334C6E271CC4B4500077CBF1 /* Project object */;
+}
